@@ -21,6 +21,9 @@ export class GlobalComponent implements OnInit {
       info: {
         text:'Esta es una recopilación de los mejores liveries votados por la comunidad. Podemos encontrar liveries basadas en diseños de la F1, en la Formula Drift, en RallyCross o Campeonatos de GT3 y GT4.',
       },
+      comment: {
+        text: '',
+      },
       photos: {
       title: 'TOP 10 LIVERIES OF THE WEEK ✔️',
       images: [

@@ -9,9 +9,21 @@ import { Info } from '../models/new-project-model';
 export class InfoComponent implements OnInit {
 @Input() public info!: Info;
 
+public messageCar: string = "";
+
+public commentUserPrint: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public onKeyUp(letter: string): void {
+    this.messageCar = letter;
+  }
+
+  public receiveComment($event: string): void {
+    this.commentUserPrint = $event;
   }
 
 }

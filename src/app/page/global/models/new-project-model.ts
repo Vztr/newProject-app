@@ -2,6 +2,7 @@ export interface NewProjectModel {
     nav: Nav;
     info: Info;
     photos: Photos;   
+    comment: Comment;
 }
   
   export interface Nav {
@@ -21,5 +22,9 @@ export interface NewProjectModel {
   export interface Photos {
     title: string;
     images: Img[];
+  }
+
+  export interface Comment {
+    text: string;
   }
   

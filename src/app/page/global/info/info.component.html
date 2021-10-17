@@ -1,3 +1,4 @@
+
 <div class="info-container">
     <h2>INFORMACIÓN 📝</h2>
     <p>{{ info.text }}</p>
@@ -22,4 +23,11 @@
         <strong>GT4 y GT3</strong>, según el orden de las imágenes, en las que podemos ver
         un <strong>Audi TT Cup</strong> del equipo <strong>Leopard Racing</strong>, y un <strong>BMW Z4 GT3</strong> del equipo de la marca.
     </p>
+</div>
+<app-comment>
+    [commentUser]="messageCar" 
+    (commentEvent)="receiveComment($event)">
+</app-comment>
+<div class="result">
+    <h5>El coche sugerido por el usuario es: <p>{{commentUserPrint}}</p></h5>
 </div>
