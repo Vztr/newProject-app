@@ -1,0 +1,26 @@
+.info-container {
+    max-width: 1200px;
+   /*  background-color: rgb(233, 112, 25); */
+
+    h2 {
+        width: 80%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        color:rgb(255, 51, 112);
+        padding: 15px 7px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 5px;
+    }
+
+    p {
+        /* width: 100%; */
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        color: rgb(200, 200, 200);
+        padding: 5px 10px;
+        padding: 8px 30px;
+         line-height: 20px;
+    }
+}
